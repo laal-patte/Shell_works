@@ -1,0 +1,7 @@
+IFS => internal feild seperator
+set IFS to some char then that char becomes feild seperator for `read`
+always set it to old IFS back
+
+basename => tidy up $0 ($0 is file name which is called)
+
+
