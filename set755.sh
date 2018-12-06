@@ -1,2 +1,5 @@
 #!/bin/sh
-chmod 755 argv[1]
+if [ -f "$1" ]
+then
+chmod 755 "$1"
+fi
